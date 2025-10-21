@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nykaa Diwali Dhamaka Sale</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background-color: #fff;
+    }
+    
+    .top-gradient-bar {
+      background: linear-gradient(to right, #E6B7FF, #F8C1A1);
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 40px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .top-gradient-bar .left-text {
+      text-align: center;
+      flex: 1;
+    }
+    .top-gradient-bar .right-links {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    section.hero>img{
+        width: 100%;
+        height: 30px;
+    }
+    .top-gradient-bar .right-links a {
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border-right: 1px solid #888;
+      padding-right: 10px;
+      font-size: 13px;
+    }
+    .top-gradient-bar .right-links a:last-child {
+      border-right: none;
+    }
+    
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo img {
+      height: 60px;
+      width: auto;
+      cursor: pointer;
+    }
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: 30px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .nav-links a:hover {
+      color: #E91E63;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background: #F5F5F5;
+      border-radius: 6px;
+      padding: 6px 10px;
+    }
+    .search-bar input {
+      border: none;
+      background: transparent;
+      outline: none;
+      padding-left: 8px;
+      width: 180px;
+      font-size: 14px;
+    }
+    .search-icon {
+      color: #555;
+      font-size: 16px;
+    }
+    .sign-in {
+      background: #E91E63;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .cart-icon {
+      font-size: 20px;
+      color: #000;
+      cursor: pointer;
+    }
+   section.banner>img{
+    width: 100%;
+    height: auto;
+   }
+   span.cart-icon>img{
+    height: 40px;
+    width: 40px;
+   }
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: #fff;
+    }
+    .categories {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 50px 5%;
+      flex-wrap: wrap;
+      background: #fff;
+    }
+    .category {
+      text-align: center;
+      width: 110px;
+    }
+    .category img {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center, #fff, #FFF7F2);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      padding: 12px;
+      transition: transform 0.3s;
+    }
+    .category img:hover {
+      transform: scale(1.08);
+    }
+    .category p {
+      margin-top: 12px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #000;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background-color: #fff;
+      text-align: center;
+    }
+    .glowvember-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #6B2A8C;
+      margin: 60px 0 30px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .glowvember-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 0 6%;
+      justify-items: center;
+    }
+    .glow-card {
+      background: linear-gradient(135deg, #D8B4EF 0%, #F5C0A5 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      max-width: 360px;
+      color: white;
+      text-align: left;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .glow-card:hover {
+      transform: scale(1.04);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    .glow-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+    .brand {
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #fff;
+      opacity: 0.9;
+    }
+    .offer {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin: 6px 0;
+    }
+    .subtext {
+      font-size: 14px;
+      color: #fff;
+      opacity: 0.9;
+    }
+    @media (max-width: 768px) {
+      .glowvember-title {
+        font-size: 20px;
+      }
+      .glow-card {
+        padding: 15px;
+      }
+      .offer {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="top-gradient-bar">
+    <div class="left-text">Have you Shopped From Our Diwali Sale Yet?</div>
+    <div class="right-links">
+      <a href="#"> Get App</a>
+      <a href="#"> Store & Events</a>
+      <a href="#"> Gift Card</a>
+      <a href="#">Help</a>
+    </div>
+  </div>
+ 
+  <div class="navbar">
+    <div style="display:flex; align-items:center;">
+      <div class="logo">
+        <a href="https://www.nykaa.com/?root=logo" target="_blank">
+          <img src="https://cdn.iconscout.com/icon/free/png-512/free-nykaa-logo-icon-svg-download-png-2822953.png?f=webp&w=512" alt="Nykaa Logo">
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="#">Categories</a>
+        <a href="#">Brands</a>
+        <a href="#">Luxe</a>
+        <a href="#">Nykaa Fashion</a>
+        <a href="#">Beauty Advice</a>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <div class="search-bar">
+        <input type="text" placeholder="Search on Nykaa">
+      </div>
+      <button class="sign-in">Sign in</button>
+      <span class="cart-icon"><img src="https://static.vecteezy.com/system/resources/previews/010/926/876/large_2x/shopping-bag-line-style-icon-diwali-vector.jpg" alt="shoping bag"></span>
+    </div>
+  </div>
+  <section class="banner">
+    <img src="https://images-static.nykaa.com/uploads/aa248003-0a0a-4776-a725-705ccfe22db2.jpg?tr=cm-pad_resize,w-1200" alt="banner">
+  </section>
+  <section class="categories">
+    <div class="category">
+      <img src="https://images-static.nykaa.com/uploads/b1a0794e-9ea6-4e6a-875c-d6201f69e854.png?tr=cm-pad_resize,w-150" alt="Makeup">
+      <p>Makeup</p>
+    </div>
+    <div class="category">
+      <img src="https://images-static.nykaa.com/uploads/24f633f2-3fdf-4e7c-93a5-89be652e6c27.png?tr=cm-pad_resize,w-150" alt="Skin">
+      <p>Skin</p>
+    </div>
+    <div class="category">
+      <img src="https://images-static.nykaa.com/uploads/d09d44ff-54ee-4f48-b52d-8523a775376b.jpg?tr=cm-pad_resize,w-150" alt="Hair">
+      <p>Hair</p>
+    </div>
+    <div class="category">
+      <img src="https://images-static.nykaa.com/uploads/b410de43-6a11-48b9-88bb-3e06b757d7dd.png?tr=cm-pad_resize,w-150" alt="Bath & Body">
+      <p>Bath & Body</p>
+    </div>
+    <div class="category">
+      <img src="https://images-static.nykaa.com/uploads/522f4426-73a7-473e-999b-5847d8d47a11.jpg?tr=cm-pad_resize,w-150" alt="Luxe">
+      <p>Luxe</p>
+    </div>
+  </section>
+  <h2 class="glowvember-title">Glow-vember Icons</h2>
+  <div class="glowvember-grid">
+    <div class="glow-card">
+      <img src="https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue321/The-Best-Of-Makeup-2021-Top-Customer-Favourites-That-Dominated_1_OI.jpg" alt="Nykaa Cosmetics">
+      <p class="brand">Nykaa Cosmetics</p>
+      <p class="offer">Up To 35% Off</p>
+      <p class="subtext">On Makeup Bestsellers</p>
+    </div>
+    <div class="glow-card">
+      <img src="https://images-static.nykaa.com/uploads/46bda17c-d612-481c-8b43-2db85a1007dd.jpeg?tr=cm-pad_resize,w-500" alt="Estee Lauder">
+      <p class="brand">Estée Lauder</p>
+      <p class="offer">Buy 2 Get 1</p>
+      <p class="subtext">Gifts On ₹4000+</p>
+    </div>
+    <div class="glow-card">
+      <img src="https://images-static.nykaa.com/uploads/740b1888-0678-4b18-b423-745b6513aa23.jpg?tr=cm-pad_resize,w-500" alt="ELF Cosmetics">
+      <p class="brand">e.l.f.</p>
+      <p class="offer">Flat 15% Off</p>
+      <p class="subtext">On Bestsellers</p>
+    </div>
+    <div class="glow-card">
+      <img src="https://images-static.nykaa.com/uploads/66d52278-392b-4ca6-80f9-a12e22811e12.jpeg?tr=cm-pad_resize,w-500" alt="Kay Beauty">
+      <p class="brand">Kay Beauty</p>
+      <p class="offer">Flat 20% Off</p>
+      <p class="subtext">On Luxe Makeup</p>
+    </div>
+  </div>
+  <br><br>
+
+    <div style="margin: auto; width: 100%; height: 25px; text-align: center;">
+            © 2025 Nykaa Demo. All rights reserved.
+
+    </div>
+
+</body>
+</html>
